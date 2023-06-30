@@ -1,0 +1,23 @@
+.dropdown_container {
+    position: relative;
+}
+
+.dropdown_text {
+    cursor: pointer;
+}
+
+.dropdown-text:hover,
+.dropdown-text.active {
+    background-color: #c0c0c0;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
